@@ -1,14 +1,38 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
     %}
+    <style>
+        body {background-image: url("stars.png");}
+    </style>
+
     <a href="/sun" target="_blank"> 
       <img style="position: relative; width:350px; height:200px; top:50px; right:50px;" src="static/sun.png" >  
     </a>
 
     <a href="/mercury" target="_blank"> 
-        <img style="position: relative; width:320px; height:200px; top:50px; right:500px; left:10px;" src="static/mercury.png" >  
+        <img style="position: relative; width:320px; height:200px; top:50px; left:60px;" src="static/mercury.png" >  
       </a>
 
     <a href="/venus" target="_blank"> 
-        <img style="position: relative; width:300px; height:200px; top:50px; left:50px;" src="static/venus.png" >  
+        <img style="position: relative; width:300px; height:200px; top:50px; left:160px;" src="static/venus.png" >  
+    </a>
+
+    <a href="/mars" target="_blank"> 
+        <img style="position: relative; width:350px; height:200px; top:100px; right:50px;" src="static/mars.png" >  
+    </a>
+
+    <a href="/jupiter" target="_blank"> 
+        <img style="position: relative; width:320px; height:200px; top:100px; left:60px;" src="static/jupiter.png" >  
+    </a>
+
+    <a href="/saturn" target="_blank"> 
+        <img style="position: relative; width:300px; height:200px; top:100px; left:160px;" src="static/saturn.png" >  
+    </a>
+
+    <a href="/uranus" target="_blank"> 
+        <img style="position: relative; width:320px; height:200px; top:150px; right:40px;" src="static/uranus.png" >  
+    </a>
+
+    <a href="/neptune" target="_blank"> 
+        <img style="position: relative; width:320px; height:200px; top:150px; left:90px;" src="static/neptune.png" >  
     </a>
 {% endblock %}

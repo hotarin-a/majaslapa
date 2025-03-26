@@ -24,5 +24,30 @@ def mercury():
 @login_required
 def venus():
     return render_template("venus.html", user=current_user)
+
+@views.route('/mars')
+@login_required
+def mars():
+    return render_template("mars.html", user=current_user)
+
+@views.route('/jupiter')
+@login_required
+def jupiter():
+    return render_template("jupiter.html", user=current_user)
+
+@views.route('/saturn')
+@login_required
+def saturn():
+    return render_template("saturn.html", user=current_user)
+
+@views.route('/uranus')
+@login_required
+def uranus():
+    return render_template("uranus.html", user=current_user)
+
+@views.route('/neptune')
+@login_required
+def neptune():
+    return render_template("neptune.html", user=current_user)
     
     
